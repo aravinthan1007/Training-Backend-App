@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Traning</display-name>
+  <welcome-file-list>
+ 	<welcome-file>Login.jsp</welcome-file>
+    </welcome-file-list>
+     <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.training.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <description></description>
+    <display-name>StudentController</display-name>
+    <servlet-name>StudentController</servlet-name>
+    <servlet-class>com.training.controller.StudentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>StudentController</servlet-name>
+    <url-pattern>/Students</url-pattern>
+    </servlet-mapping>
+ <servlet>
+    <description></description>
+    <display-name>SubjectController</display-name>
+    <servlet-name>SubjectController</servlet-name>
+    <servlet-class>com.training.controller.SubjectController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>SubjectController</servlet-name>
+    <url-pattern>/Subjects</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>TeacherController</display-name>
+    <servlet-name>TeacherController</servlet-name>
+    <servlet-class>com.training.controller.TeacherController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherController</servlet-name>
+    <url-pattern>/Teachers</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ClassesController</display-name>
+    <servlet-name>ClassesController</servlet-name>
+    <servlet-class>com.training.controller.ClassesController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassesController</servlet-name>
+    <url-pattern>/Classes</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ClassReportController</display-name>
+    <servlet-name>ClassReportController</servlet-name>
+    <servlet-class>com.training.controller.ClassReportController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassReportController</servlet-name>
+    <url-pattern>/ClassReport</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>LogoutController</display-name>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>com.training.controller.LogoutController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StudentAllocationController</display-name>
+    <servlet-name>StudentAllocationController</servlet-name>
+    <servlet-class>com.training.controller.StudentAllocationController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentAllocationController</servlet-name>
+    <url-pattern>/StudentAllocation</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>SubjectAllocationController</display-name>
+    <servlet-name>SubjectAllocationController</servlet-name>
+    <servlet-class>com.training.controller.SubjectAllocationController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>SubjectAllocationController</servlet-name>
+    <url-pattern>/SubjectAllocation</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>TeacherAllocationController</display-name>
+    <servlet-name>TeacherAllocationController</servlet-name>
+    <servlet-class>com.training.controller.TeacherAllocationController</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherAllocationController</servlet-name>
+    <url-pattern>/TeacherAllocation</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+</web-app>
